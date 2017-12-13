@@ -1,0 +1,13 @@
+.content-section{
+    background-color:black;
+}
+.side-navigation-section{
+    background-color:pink;
+}
+.product-item{
+    margin:20px;
+}
+.product-img{
+    height:250px;
+    width:250px;
+}
