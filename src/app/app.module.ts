@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PostjsonComponent } from './postjson/postjson.component';
 import {GetjsondataService} from './getjsondata.service';
+import { WishlistComponent } from './wishlist/wishlist.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {GetjsondataService} from './getjsondata.service';
     ProductComponent,
     AboutusComponent,
     PageNotFoundComponent,
-    PostjsonComponent
+    PostjsonComponent,
+    WishlistComponent
     
   ],
   imports: [
