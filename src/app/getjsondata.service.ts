@@ -15,7 +15,7 @@ export class GetjsondataService {
     private postUrl = 'https://jsonplaceholder.typicode.com/posts';
  
     // Injecting the http client into the service
-    constructor(private http: Http) {}
+       constructor(private http: Http) {}
  
     // Method retrieve all the posts
     getPosts (): Observable<any> {

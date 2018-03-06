@@ -8,7 +8,7 @@ import {GetjsondataService} from '../getjsondata.service';
     styleUrls: ['./postjson.component.css']
 })
 export class PostjsonComponent implements OnInit {
-    errorMessage: string;
+    errorMessage: any;
     posts:any[];
  
     // We don't call the get method in the constructor
@@ -22,8 +22,8 @@ export class PostjsonComponent implements OnInit {
         this.GetjsondataService.getPosts()
             .subscribe(
                  posts => this.posts = posts,
-                 result => console.log(result)
-                //error => this.errorMessage = error
+                 result => console.log(result) 
+                 //error => this.errorMessage = error
             )
     }
 }
